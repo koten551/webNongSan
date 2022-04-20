@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piser store</title>
+    <link rel="icon" href="./img/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <div class="main-banner" style="background-image: url(./img/slide.jpg)"></div>
+        <header id="#" class="header wide">
+            <nav class="header-nav row">
+                <div class="col l-2 m-12 c-12">
+                    <div class="header-logo">
+                        <img src="./img/mona-white.png" class="nav-item-icon"></img>
+                    </div>
+                </div>
+                <div class="col l-7 m-0 c-0">
+                    <ul class="header__nav-list">
+                        <li class="nav-item nav-item-active"><a class="nav-item-link" href="#"> Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-item-link"  href="#gioithieu"> Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-item-link" href="#shop"> Cửa Hàng</a></li>
+                        <li class="nav-item"><a class="nav-item-link"  href="#kienthuc"> Kiến thức</a></li>
+                        <li cla ss="nav-item"><a class="nav-item-link"  href="#"> Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="header-search-box">
+                        <input type="search" placeholder="Tìm kiếm">
+                        <i id="searching" class="fas fa-search"></i>
+                        <ul id="search-results"></ul>
+                    </div>
+                </div>
+                <div id="mobile-nav" class="col l-0 m-3 c-3">
+                    <i class="fas fa-bars"></i>
+                    <ul class="mobile__nav-list">
+                        <li class="nav-item"><a class="nav-item-link" href="#"> Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-item-link"  href="#gioithieu"> Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-item-link" href="#shop"> Cửa Hàng</a></li>
+                        <li class="nav-item"><a class="nav-item-link"  href="#kienthuc"> Kiến thức</a></li>
+                        <li class="nav-item"><a class="nav-item-link"  href=""> Liên hệ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-center-content">
+                <h2>GIAO TẬN TAY NGƯỜI DÙNG NHANH</h2>
+                <h3>Chúng tôi cung cấp các sản phẩm hữu cơ chất lượng cao</h3>
+                <div class="contact-info">
+                    <div class="row">
+                        <div class="col l-1 m-1 c-1">
+                            <i class="fas fa-map-marker-alt"></i> 
+                        </div>
+                        <div class="col l-11 m-11 c-11">
+                            39/28H đường 102, Tăng Nhơn Phú A, TP.Thủ Đức
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-1 m-1 c-1">
+                            <i class="fas fa-phone"></i>
+                        </div> 
+                        <div class="col l-11 m-11 c-11">
+                            012457812333
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-1 m-1 c-1">
+                            <i class="fas fa-clock"></i>
+                        </div> 
+                        <div class="col l-11 m-11 c-11">
+                            Giao hàng từ thứ 2 đến chủ nhật.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-line"></div>
+                <div class="buy-now">
+                    <a href="./shop.html" class="primary-btn">
+                        <span>Mua ngay</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="container">
+            <div class=" row no-gutters">
+                <div class="col l-6 m-6 c-12">
+                    <div id="gioithieu" class="welcome-content">
+                        <h4>khanh food</h4>
+                        <h1>WELCOME TO THE <span>GREEN FARM</span> </h1>
+                        <h3>
+                            <span>“Combining over 100 years of hard work</span> <br>
+                            <span>and shared family knowledge”</span>
+                        </h3>
+                        <p>Curabitur vitae ullamcorper libe roras id augue felis cras luctus nisi in tincidunt blandit sapien mi vestibulum est commodo lobortis metus mauris vitae purus blandit fermentum quamec eget urna quis sem pharetra ultricies lacinia hendrerit massa non blandit ex accums anenean eleo</p>
+                    </div>
+                </div>
+                <div class="col l-6 m-6 c-12">
+                    <div class="image-main"></div>
+                </div>
+            </div>
+            <div class="offer-wrap">
+                <div class="wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="offer-content">
+                                <h1>What we <span>offer</span> </h1>
+                                <p>Curabitur vitae ullamcorper libe roras id augue felis cras luctus nisi in tincidunt</p>
+                                <p> blandit sapien mi vestibulum est commodo lobortis</p>
+                            </div>
+                            <div class="row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="offer-item-wrap">
+                                        <a href="./shop.html" class="offer-item">
+                                            <img class="offer-item-img" src="./img/fruit11.jpg" alt="">
+                                            <div class="item-inner">
+                                                <div class="item-inner-content">
+                                                    <h2>Trái cây</h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="offer-item-wrap">
+                                        <a href="./shop.html" class="offer-item">
+                                            <img class="offer-item-img" src="./img/fruit9.jpg" alt="">
+                                            <div class="item-inner">
+                                                <div class="item-inner-content">
+                                                    <h2>Hải sản</h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="offer-item-wrap">
+                                        <a href="./shop.html" class="offer-item">
+                                            <img class="offer-item-img" src="./img/fruit10.jpg" alt="">
+                                            <div class="item-inner">
+                                                <div class="item-inner-content">
+                                                    <h2>Thịt</h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="offer-item-wrap">
+                                        <a href="./shop.html" class="offer-item">
+                                            <img class="offer-item-img" src="./img/fruit12.jpg" alt="">
+                                            <div class="item-inner">
+                                                <div class="item-inner-content">
+                                                    <h2>Trái cây</h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="offer-item-wrap">
+                                        <a href="./shop.html" class="offer-item">
+                                            <img class="offer-item-img" src="./img/fruit13.jpg" alt="">
+                                            <div class="item-inner">
+                                                <div class="item-inner-content">
+                                                    <h2>Hải sản</h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="offer-item-wrap">
+                                        <a href="./shop.html" class="offer-item">
+                                            <img class="offer-item-img" src="./img/fruit14.jpg" alt="">
+                                            <div class="item-inner">
+                                                <div class="item-inner-content">
+                                                    <h2>Thịt</h2>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="shop" class="season-wrap">
+                <div class="wide">
+                    <div class="row">
+                        <div class="col l-3 m-12 c-12">
+                            <h1>SEASON <span>FAVORITES</span></h1>
+                            <p>Curabitur vitae ullamcorper libe rorasid augue felis cras luctus nisi intincidunt blandit sapien</p>
+                            <a class="all-product" href="./shop.html">
+                                See all products
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="season-item">
+                                <a href="./shop.html"><img src="./img/fruit16.jpg" alt=""></a>
+                                <a href="#" class="season-item-type">Vegetables</a>
+                                <a href="#" class="season-item-name">Cabbage Savoy</a>
+                                <div class="season-item-pirce-old">35k</div>
+                                <div class="season-item-pirce-new">25k</div>
+                                <div class="season-item-sale">Sale!</div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="season-item">
+                                <a href="./shop.html"><img src="./img/fruit15.jpg" alt=""></a>
+                                <a href="#" class="season-item-type">Berries</a>
+                                <a href="#" class="season-item-name">Strawberry</a>
+                                <div class="season-item-pirce-old">35k</div>
+                                <div class="season-item-pirce-new">25k</div>
+                                <div class="season-item-sale">Sale!</div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="season-item">
+                                <a href="./shop.html"><img src="./img/fruit13.jpg" alt=""></a>
+                                <a href="#" class="season-item-type">Fruit</a>
+                                <a href="#" class="season-item-name">Nho tím</a>
+                                <div class="season-item-pirce-new">33k</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="season-footer">
+                    <div class="wide row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="season-footer-item">
+                                <i class="fas fa-medal"></i>
+                                <h4>Premium Quality of Veggies and Fruit</h4>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="season-footer-item">
+                                <i class="fas fa-shopping-cart"></i>
+                                <h4>Free Shipping and Delivery Services</h4>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="season-footer-item">
+                                <i class="far fa-thumbs-up"></i>
+                                <h4>The Best Price/Quality Ratio on the Market</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="kienthuc" class="knowledge-wrap">
+                <div class="row no-gutters">
+                    <h1>ORGANIC <span>BLOG</span></h1>
+                </div>
+                <div class="row wide">
+                    <div class="col l-4 m-4 c-6">
+                        <div class="knowledge-item">
+                            <abbr title="ngày 7, tháng 7, 2021"> 7/07/2021</abbr>
+                            <a class="knowledge-item-title" href="">THE SECRET LIFE OF FARM ANIMALS</a>
+                            <div class="knowledge-item-info row">
+                                <span class="col l-4"><b>By:</b>  khanhh</span>
+                                <span class="col l-4"><b>In:</b>  green farm</span>
+                                <span class="comment-cout">
+                                    <i class="far fa-comment"></i>
+                                    1
+                                </span>
+                            </div>
+                            <a href="#"><img src="./img/fruit17.jpg" alt="img"></a> 
+                            <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion...</p>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="knowledge-item">
+                            <abbr title="ngày 7, tháng 7, 2021"> 7/07/2021</abbr>
+                            <a class="knowledge-item-title" href="">VEGGIE DIET PROS AND CONS</a>
+                            <div class="knowledge-item-info row">
+                                <span class="col l-4"><b>By:</b>  khanhh</span>
+                                <span class="col l-4"><b>In:</b>  green farm</span>
+                                <span class="comment-cout">
+                                    <i class="far fa-comment"></i>
+                                    1
+                                </span>
+                            </div>
+                            <a href="#"><img src="./img/fruit18.jpg" alt="img"></a> 
+                            <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion...</p>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="knowledge-item">
+                            <abbr title="ngày 7, tháng 7, 2021"> 7/07/2021</abbr>
+                            <a class="knowledge-item-title" href="">True Farm: The Story of One Farmer</a>
+                            <div class="knowledge-item-info row">
+                                <span class="col l-4"><b>By:</b>  khanhh</span>
+                                <span class="col l-4"><b>In:</b>  green farm</span>
+                                <span class="comment-cout">
+                                    <i class="far fa-comment"></i>
+                                    1
+                                </span>
+                            </div>
+                            <a href="#"><img src="./img/fruit19.jpg" alt="img"></a> 
+                            <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion...</p>
+                        </div>
+                    </div>
+                    <div class="col l-12 m-12 c-12">
+                        <div class="read-more"><a href="#">Xem thêm</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="wide">
+                <div class="row footer-heading">
+                    <div class="col l-6 m-6 c-12">
+                        <h2>SUMMER ORGANICS MARKET</h2>
+                        <p>April 30 - December 31</p>
+                        <p>Brooklyn, NY 10036 New York AK United States</p>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <h2>Đăng ký</h2>
+                        <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                        <input type="email" placeholder="nhập email của bạn"> 
+                        <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="row footer-body">
+                    <div class="col l-3 m-6 c-12">
+                        <img class="footer-logo" src="./img/mona-white.png" alt="logo">
+                        <p>By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out.</p>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Links</div>
+                        <ul class="footer-list">
+                            <li><a class="footer-list-item" href="#">How to be a Farmer</a></li>
+                            <li><a class="footer-list-item" href="#">4 Steps to Rule Your Farm</a></li>
+                            <li><a class="footer-list-item" href="#">15 Tips for Young Farmers</a></li>
+                            <li><a class="footer-list-item" href="#">20 Farm Care Ideas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Cooperation</div>
+                        <ul class="footer-list">
+                            <li><a class="footer-list-item" href="#">About Us</a></li>
+                            <li><a class="footer-list-item" href="#">We Hire</a></li>
+                            <li><a class="footer-list-item" href="#">Farm News</a></li>
+                            <li><a class="footer-list-item" href="#">Become a Partner</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Info</div>
+                        <div class="contact-info">
+                            <div>
+                                <i class="fas fa-map-marker-alt"></i>
+                                39/28H đường 102, Tăng Nhơn Phú A, TP. Thủ Đức
+                            </div>
+                            <div>
+                                <i class="fas fa-phone"></i>
+                                012457812333
+                            </div>
+                            <div>
+                                <i class="fas fa-clock"></i>
+                                Giao hàng từ thứ 2 đến chủ nhật.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modar -->
+    <div class="modar">
+        <i class="fas fa-times modar-close"></i>
+    </div>
+</body>
+
+<script src="./js/app.js"></script>
+</html>

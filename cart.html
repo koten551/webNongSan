@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./css/grid.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/shop.css">
+        <link rel="stylesheet" href="./css/cart.css">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
+    </head>
+<body>
+    <div class="grid">
+        <div class="header-wrap">
+            <div class="wide">
+                <nav class="header-nav row">
+                    <div class="col l-2 m-12 c-12">
+                        <div class="header-logo">
+                            <img src="./img/mona-green.png" class="nav-item-icon"></img>
+                        </div>
+                    </div>
+                    <div class="col l-7 m-0 c-0">
+                        <ul class="header__nav-list">
+                            <li class="nav-item"><a class="nav-item-link" href="./index.html"> Trang chủ</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href="./index.html#gioithieu"> Giới thiệu</a></li>
+                            <li class="nav-item nav-item-active">
+                                <a class="nav-item-link" href="#"> Cửa Hàng</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-item-link"  href="./index.html#kienthuc"> Kiến thức</a></li>
+                            <li cla ss="nav-item"><a class="nav-item-link"  href=""> Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-12 c-12">
+                        <div class="header-search-box">
+                            <input type="search" placeholder="Tìm kiếm">
+                            <i id="searching" class="fas fa-search"></i>
+                            <ul id="search-results"></ul>
+                        </div>
+                    </div>
+                    <div id="mobile-nav" class="col l-0 m-3 c-3">
+                        <i class="fas fa-bars"></i>
+                        <ul class="mobile__nav-list">
+                            <li class="nav-item"><a class="nav-item-link" href="#"> Trang chủ</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href="#gioithieu"> Giới thiệu</a></li>
+                            <li class="nav-item"><a class="nav-item-link" href="#shop"> Cửa Hàng</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href="#kienthuc"> Kiến thức</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href=""> Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container wide">
+            <div class="message-container">Giỏ hàng đã được cập nhật</div>
+            <div class="row">
+                <div class="col l-7 m-12 c-12">
+                    <table class="cart-table">
+                        <thead>
+                            <tr>
+                                <th colspan="3">Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody> 
+                    </table>
+                    <a href="./shop.html" class="blue-btn inverse">
+                        <i class="fas fa-arrow-left"></i>
+                        Tiếp tục mua sắm
+                    </a>
+                    <div id="update-cart" class="blue-btn">Cập nhật giỏ hàng</div>
+                </div>
+                <div class="col l-5 m-12 c-12">
+                    <table class="total-table">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Thanh toán</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Tổng tiền hàng</th>
+                                <td id="total-cost">150000 đ</td>
+                            </tr>
+                            <tr>
+                                <th>Phí giao hàng</th>
+                                <td id="delivery-cost">
+                                    <p>giao hàng miễn phí</p>
+                                    <p>ước tính phí giao hàng</p>
+                                    <p> 12000 đ</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Tổng cộng</th>
+                                <td id="subtotal-cost">162000 đ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="checkout" class="blue-btn">Tiến hành đặt hàng</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wide">
+                <div class="row footer-heading">
+                    <div class="col l-6 m-6 c-12">
+                        <h2>SUMMER ORGANICS MARKET</h2>
+                        <p>April 30 - December 31</p>
+                        <p>Brooklyn, NY 10036 New York AK United States</p>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <h2>Đăng ký</h2>
+                        <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                        <input type="email" placeholder="nhập email của bạn"> 
+                        <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="row footer-body">
+                    <div class="col l-3 m-6 c-12">
+                        <img class="footer-logo" src="./img/mona-white.png" alt="logo">
+                        <p>By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out.</p>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Links</div>
+                        <ul class="footer-list">
+                            <li><a class="footer-list-item" href="#">How to be a Farmer</a></li>
+                            <li><a class="footer-list-item" href="#">4 Steps to Rule Your Farm</a></li>
+                            <li><a class="footer-list-item" href="#">15 Tips for Young Farmers</a></li>
+                            <li><a class="footer-list-item" href="#">20 Farm Care Ideas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Cooperation</div>
+                        <ul class="footer-list">
+                            <li><a class="footer-list-item" href="#">About Us</a></li>
+                            <li><a class="footer-list-item" href="#">We Hire</a></li>
+                            <li><a class="footer-list-item" href="#">Farm News</a></li>
+                            <li><a class="footer-list-item" href="#">Become a Partner</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Info</div>
+                        <div class="contact-info">
+                            <div>
+                                <i class="fas fa-map-marker-alt"></i>
+                                39/28H đường 102, Tăng Nhơn Phú A, TP. Thủ Đức
+                            </div>
+                            <div>
+                                <i class="fas fa-phone"></i>
+                                012457812333
+                            </div>
+                            <div>
+                                <i class="fas fa-clock"></i>
+                                Giao hàng từ thứ 2 đến chủ nhật.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modar -->
+    <div class="modar">
+        <i class="fas fa-times modar-close"></i>
+    </div>
+</body>
+
+<script src="./js/app.js"></script>
+</html>

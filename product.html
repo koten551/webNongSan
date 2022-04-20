@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./css/grid.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/shop.css">
+        <link rel="stylesheet" href="./css/product.css">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
+    </head>
+<body>
+    <div class="grid">
+        <div class="header-wrap">
+            <div class="wide">
+                <nav class="header-nav row">
+                    <div class="col l-2 m-12 c-12">
+                        <div class="header-logo">
+                            <img src="./img/mona-green.png" class="nav-item-icon"></img>
+                        </div>
+                    </div>
+                    <div class="col l-7 m-0 c-0">
+                        <ul class="header__nav-list">
+                            <li class="nav-item"><a class="nav-item-link" href="./index.html"> Trang chủ</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href="./index.html#gioithieu"> Giới thiệu</a></li>
+                            <li class="nav-item nav-item-active">
+                                <a class="nav-item-link" href="#"> Cửa Hàng</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-item-link"  href="./index.html#kienthuc"> Kiến thức</a></li>
+                            <li cla ss="nav-item"><a class="nav-item-link"  href=""> Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-12 c-12">
+                        <div class="header-search-box">
+                            <input type="search" placeholder="Tìm kiếm">
+                            <i id="searching" class="fas fa-search"></i>
+                            <ul id="search-results"></ul>
+                        </div>
+                    </div>
+                    <div id="mobile-nav" class="col l-0 m-3 c-3">
+                        <i class="fas fa-bars"></i>
+                        <ul class="mobile__nav-list">
+                            <li class="nav-item"><a class="nav-item-link" href="#"> Trang chủ</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href="#gioithieu"> Giới thiệu</a></li>
+                            <li class="nav-item"><a class="nav-item-link" href="#shop"> Cửa Hàng</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href="#kienthuc"> Kiến thức</a></li>
+                            <li class="nav-item"><a class="nav-item-link"  href=""> Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wide">
+                <div class="product-main">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="product-wrap">
+                                <div class="product__image" style="background-image : url(./img/fruit4.jpg)"></div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <h2 class="product__name">
+                                Bơ 034
+                            </h2>
+                            <div class="is-divider">
+    
+                            </div>
+                            <div class="product__price">65,000 đ</div>
+                            <div class="product__service">
+                                <p>
+                                    <i class="far fa-check-square"></i>
+                                    Gọi mua hàng 1900 636 648
+                                </p>
+                                <p>
+                                    <i class="far fa-check-square"></i>
+                                    Đảm bảo tươi ngon
+                                </p>
+                                <p>
+                                    <i class="far fa-check-square"></i>
+                                    Giao hàng trực tiêp từ vườn
+                                </p>
+                                <p>
+                                    <i class="far fa-check-square"></i>
+                                    Đổi trả trong vòng 24h
+                                </p>
+                            </div>
+                            <div class="product__quantity">
+                                <div class="product__quantity-option less">-</div>
+                                <input type="number" class="quantity" value="1"></input>
+                                <div class="product__quantity-option more">+</div>
+                                <div class="add-btn" data-index="3">Thêm vào giỏ</div>
+                            </div>
+                            <div class="row">
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="title">Tính phí ship tự động</div>
+                                    <div class="product__ships">
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-ghn.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-ghtk.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-ninja-van.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-viettle-post.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-vn-post.jpg')"></div>
+                                    </div>      
+                                </div>
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="title">Thanh toán</div>
+                                    <div class="product__credits">
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-acb.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-techcombank.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-paypal.jpg')"></div>
+                                        <div class="cooperation-image" style="background-image: url('./img/logo-mastercard.jpg')"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="affilicate">"Hãy trở thành Affilicate của chúng tôi để tìm thêm thu nhập thụ động, kiếm tiền online"</div>
+                            <a href="#" class="blue-btn">Đăng kí Affilicate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <div class="product-footer__nav">
+                        <div id="description" class="nav-btn nav-btn__active">Mô tả</div>
+                        <div id="review" class="nav-btn"> 
+                            Đánh giá
+                            (<span id="rate-count">0</span>)
+                        </div>                        
+                    </div>
+                    <div class="tab-panel__description">
+                        <p><span style="font-size: 14pt;">Bơ sáp 034 Lâm Đồng có da màu xanh bóng, vỏ mỏng, cơm vàng dày, chiều dài quả từ 20cm đến 25cm. Khi chín, bơ sáp 034 có màu xanh, vị ngọt béo, dẻo, rất ít xơ và không bị nước như những loại bơ sáp truyền thống. Bơ sáp 034 chứa rất nhiều chất dinh dưỡng, đặc biệt thích hợp cho bà bầu và những người bị bệnh đái tháo đường.</span></p>
+                        <p><span style="font-size: 14pt;">Giống bơ sáp 034 được trồng đầu tiên tại Lâm Đồng, sau đó được trồng tại một số tỉnh khác như Đăk Lăk, Gia Lai, Bình Phước…Tuy nhiên, chỉ khi trồng ở Lâm Đồng, bơ sáp 034 mới đạt chất lượng cao nhất, quả bơ cho trái dài, to, cơm vàng, béo và dẻo thơm.</span></p>
+                        <h2><span style="font-size: 15pt;"><strong>Giá bơ sáp 034 Lâm Đồng hướng hữu cơ là:</strong></span></h2>
+                        <ul>
+                        <li><span style="font-size: 12pt;"><em>Mua dưới 3kg: 135.000 đồng/1kg</em></span></li>
+                        <li><span style="font-size: 12pt;"><em>Mua trên 3kg: 130.000 đồng1kg</em></span></li>
+                        </ul>
+                        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="./img/bo_sap_034_lam_dong.jpg" /></p>
+                        <h3><span style="font-size: 15pt;"><strong>Lợi ích sức khỏe từ quả bơ sáp 034</strong></span></h3>
+                        <p><span style="font-size: 14pt;">Bơ sáp là một loại thực phẩm giàu dinh dưỡng tự nhiên, chứa gần 20 loại vitamin và khoáng chất. Theo cơ sở dữ liệu dinh dưỡng quốc gia của Bộ Nông nghiệp Hoa Kỳ USDA, trong 40g quả bơ có chứa những chất sau:</span></p>
+                        <ul>
+                        <li><span style="font-size: 14pt;">64 calo</span></li>
+                        <li><span style="font-size: 14pt;">Gần 6g chất béo</span></li>
+                        <li><span style="font-size: 14pt;">3,4g carbohydrate</span></li>
+                        <li><span style="font-size: 14pt;">Gần 1g đường</span></li>
+                        <li><span style="font-size: 14pt;">Gần 3g chất xơ</span></li>
+                        <li><span style="font-size: 14pt;">Trong 200g quả bơ có chứa 42% đồng; 12% kẽm; 14% sắt; 35% vitamin K; 41% folate; 40% vitamin B6; 56% vitamin B5; 21% kali; 22% vitamin C; 35% chất xơ (tỉ lệ % tính theo mức dinh dưỡng cần cung cấp cho cơ thể hàng ngày).</span></li>
+                        </ul> 
+                    </div>
+                    <div class="tab-panel__rate" style="display: none">
+                        <h2>Đánh giá</h2>
+                        <div class="reviews-panel">
+                            <h4>Chưa có đánh giá nào</h4>
+                        </div>
+                        <form action="" method="POST" class="reviews-form">
+                            <div class="react-star">
+                                <p>Đánh giá của bạn</p>
+                                <p id="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <div class="form-group">
+                                        <label for="comment" >Nhận xét của bạn *</label>
+                                        <textarea name="comment" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="form-group">
+                                        <label for="username">Tên của bạn *</label>
+                                        <input type="text" name="username" id="username" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="form-group">
+                                        <label for="email">Địa chỉ email *</label>
+                                        <input type="email" name="email" id="email" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button id="send" class="blue-btn">Gửi đi</button>
+                        </form> 
+                    </div>
+                </div>
+                <div class="retate">
+                    <h2 class="retate__title">Sản phẩm tương tự</h2>    
+                    <div id="product-wrap" class="row"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wide">
+                <div class="row footer-heading">
+                    <div class="col l-6 m-6 c-12">
+                        <h2>SUMMER ORGANICS MARKET</h2>
+                        <p>April 30 - December 31</p>
+                        <p>Brooklyn, NY 10036 New York AK United States</p>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <h2>Đăng ký</h2>
+                        <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                        <input type="email" placeholder="nhập email của bạn"> 
+                        <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="row footer-body">
+                    <div class="col l-3 m-6 c-12">
+                        <img class="footer-logo" src="./img/mona-white.png" alt="logo">
+                        <p>By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out.</p>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Links</div>
+                        <ul class="footer-list">
+                            <li><a class="footer-list-item" href="#">How to be a Farmer</a></li>
+                            <li><a class="footer-list-item" href="#">4 Steps to Rule Your Farm</a></li>
+                            <li><a class="footer-list-item" href="#">15 Tips for Young Farmers</a></li>
+                            <li><a class="footer-list-item" href="#">20 Farm Care Ideas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Cooperation</div>
+                        <ul class="footer-list">
+                            <li><a class="footer-list-item" href="#">About Us</a></li>
+                            <li><a class="footer-list-item" href="#">We Hire</a></li>
+                            <li><a class="footer-list-item" href="#">Farm News</a></li>
+                            <li><a class="footer-list-item" href="#">Become a Partner</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="footer-list-name">Info</div>
+                        <div class="contact-info">
+                            <div>
+                                <i class="fas fa-map-marker-alt"></i>
+                                39/28H đường 102, Tăng Nhơn Phú A, TP. Thủ Đức
+                            </div>
+                            <div>
+                                <i class="fas fa-phone"></i>
+                                012457812333
+                            </div>
+                            <div>
+                                <i class="fas fa-clock"></i>
+                                Giao hàng từ thứ 2 đến chủ nhật.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modar -->
+    <div class="modar">
+        <i class="fas fa-times modar-close"></i>
+    </div>
+</body>
+
+<script src="./js/app.js"></script>
+</html>
