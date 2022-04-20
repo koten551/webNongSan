@@ -1,0 +1,370 @@
+
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.main-banner {
+    z-index: -1;
+    position: absolute;
+    background:  center center / cover no-repeat;
+    background-color: var(--primary-color);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.header-center-content {
+    position: absolute;
+    top: 25%;
+    left: 10px;
+    text-align: left;  
+    letter-spacing: -2px;
+    color: #fff;
+}
+
+.header-center-content > h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 2px 6px 8px #292929;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.header-center-content > h3 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.header-center-content a {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow:  0 14px 28px rgba(0, 0, 0, 0.5);
+    transform: translateY(0%);
+    transition: transform linear 0.2s;
+}
+
+
+.header-center-content a i {
+    margin: 0px -20px 0px 20px;
+}
+
+/* container */
+
+
+.container  p {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7B7B7B;
+    font-weight: 300;
+}
+
+.container h1 > span {
+    color: var(--primary-color);
+}
+
+.container h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin:0 0 22px;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.image-main {   
+    width: 100%;
+    height: 800px;  
+    background: left center / cover no-repeat;
+    background-image: url("../img/fruit6.jpg");
+}
+
+.welcome-content {
+    height: 100%;
+    padding: 20% 17% 15% 17%;
+    text-align: center;
+}
+
+.welcome-content > h4 {
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.welcome-content > h3 {
+    color: #98846F;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 22px;
+}
+
+.offer-wrap {
+    position: relative; 
+    width: 100%;
+    background: top center / contain repeat;
+    background-image: url("../img/bg1.jpg");    
+    padding: 130px 0 80px 0;
+}
+
+.offer-content {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.container .offer-item-wrap {
+    padding: 10px 0;
+}
+
+.container .offer-item{
+    display: block;
+    height: 100%;
+    width: 100%;    
+    position: relative;
+}
+
+.container .offer-item:hover {
+    filter: brightness(80%);
+    animation: darkin ease 0.3s;
+}
+
+.offer-item .item-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.item-inner-content {
+    padding: 50% 0;
+    color: #fff;
+}
+.offer-item .item-inner h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+.offer-item-img {
+    width: 100%;
+}
+
+.season-wrap {
+    width: 100%;
+    background: top center / cover repeat;
+    background-image: url("../img/bg2.jpg");
+    position: relative;
+    padding-top: 130px;
+}
+
+.season-wrap::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 30px 30px;    
+    border-style: solid;
+    border-color: #faf8f7 transparent transparent transparent;
+
+}
+
+.all-product {
+    display: inline-block;
+    color: #9C8B71;
+    margin: 30px 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.all-product:hover {
+    transform: translateY(-10%);
+}
+
+
+.season-item {
+    text-align: center;
+    position: relative;
+}
+
+.season-item img {
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: transform .3s;
+}
+
+.season-item img:hover {        
+    transform: scale(130%);
+}
+
+.season-item-sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #92B955;
+    padding: 4px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    font-style: italic;
+}
+
+/* block cho thẻ a đầu tiên chứa ảnh */
+.season-item :first-child {  
+    display: block;
+    overflow: hidden;
+}
+
+.season-item > a:hover {
+    color: var(--primary-color);
+}
+
+.season-item-type {
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.season-item-name {
+    display: block;
+    font-size: 20px;
+    color: #373333;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.season-item-pirce-old {
+    font-style: italic;
+    font-size: 13px;
+    text-decoration-line: line-through;
+    display: inline-block;
+    transform: translateY(-9%);
+    margin-right: 5px;
+    padding: 10px 0;
+}
+
+.season-item-pirce-new {
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+    color: var(--primary-color);
+    padding: 10px 0;
+}
+
+.season-footer {
+    background-color: #9C8B71;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+.season-footer-item {
+    height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.season-footer i {
+    font-size: 40px;
+    transform: translateY(-10px);
+}
+
+.knowledge-wrap {
+    padding-top: 130px;
+    padding-bottom: 80px;
+    background-color: #faf8f7;
+}
+
+.knowledge-wrap h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.knowledge-item {
+    text-align: left;
+    margin: 0 10px;
+}
+
+.knowledge-item p {
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.knowledge-item abbr {
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: #333;
+}
+
+.knowledge-item-title {
+    display: block;
+    min-height: 70px;
+    padding-top: 10px;
+    font-size: 26px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #92B955;
+    border-bottom: #cac9c9 solid 1px;
+    text-transform: uppercase;
+    transition: color ease-in-out 0.3s;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.knowledge-item-title:hover {
+    color: rgb(73, 72, 72);
+    
+}
+
+.knowledge-item-info {
+    padding: 10px 0;
+}
+
+.knowledge-item-info > span {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: #333;
+}
+
+
+.knowledge-item img {
+    padding-top: 10px;
+    width: 100%;
+}   
+
+.read-more {
+    float: right;
+    
+}
+
+.read-more a {
+    color: var(--primary-color);
+    font-style: italic;
+}

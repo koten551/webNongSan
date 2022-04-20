@@ -1,0 +1,92 @@
+
+.container {
+    padding: 24px 0 150px 0;
+} 
+
+.message-container {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.cart-table, .total-table{
+    font-size: 16px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.product__image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cart-table th, .cart-table td {
+    border-bottom: 2px solid #ddd;
+    vertical-align: middle;
+    text-align: left;
+    min-width: 106px;
+}
+
+.cart-table th, .total-table thead {
+    padding: 7px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.cart-table td {
+    padding: 15px 7px;
+}
+
+.cart-table #remove {
+    padding: 0;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    min-width: 0;
+}
+
+.product__quantity {
+    padding: 0;
+}
+
+.product__name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 280px;
+}
+
+.product__price, .product__subtotal {   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--primary-color);
+}
+
+.product__name, .product__price {
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.total-table th, .total-table td {
+    padding: 7px;
+}
+
+.total-table th , .total-table td {
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.total-table td {
+    text-align: right;
+}
+
+.total-table #delivery-cost p {
+    padding: 5px 0;
+}
+
+#checkout {
+    background-color: #d26e4f;
+    display: block;
+}
+
+#checkout:hover {
+    background-color: #d04d26;
+}
